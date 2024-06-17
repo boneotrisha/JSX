@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import logo from '../images/lo.jpg';
-import c1 from '../images/sher.JPG';
+import c1 from '../images/sher.png';
 import c2 from '../images/tr.jpg';
 import c4 from '../images/henry.png';
 import '../css/s.css';
 import'../css/about.css';
 import'../css/menu.css';
-
+import  '../js/features.js';
 
 function About() {
   return (
@@ -94,7 +94,6 @@ function About() {
 }
 
 export default About;
-
 
 
 
