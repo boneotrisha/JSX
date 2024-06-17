@@ -10,7 +10,8 @@ import s3 from '../images/salad3.jpg';
 import d1 from '../images/salad3.jpg';
 import d2 from '../images/salad3.jpg';
 import d3 from '../images/salad3.jpg';
-
+import  '../js/menu.js';
+import  '../js/features.js';
 
 
 function Menu() {
