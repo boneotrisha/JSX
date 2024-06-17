@@ -1,15 +1,15 @@
-
 import React from "react";
 import logo from '../images/lo.jpg';
 import f1 from '../images/drinks.png';
 import f2 from '../images/D.jpg';
 import f3 from '../images/sal.png';
 import f4 from '../images/ll.jpg';
-import c1 from '../images/sher (1).png';
-import c2 from '../images/tr (1).jpg';
-import c3 from '../images/ana (1).jpg';
+import c1 from '../images/sher.png';
+import c2 from '../images/tr.jpg';
+import c3 from '../images/ana.jpg';
 import c4 from '../images/henry.png';
 import '../css/s.css';
+
 
 function Main() {
     return (
@@ -22,7 +22,7 @@ function Main() {
                 <nav class="navbar navbar-expand-lg sticky-top text-center" data-bs-spy="scroll" data-bs-target=".navbar" id="navbar">
                     <div class="container">
                         <a class="navbar-brand logo" href="lo.jpg">
-                            <img src={logo} alt="lo.jpg" height="5rem" width="40rem" class="rounded-5"/>
+                            <img src= {logo} alt="lo.jpg" height="5rem" width="40rem" class="rounded-5"/>
                             <h4 class="mb-0 dark"> Delicacy</h4>
                         </a>
                     
@@ -34,13 +34,13 @@ function Main() {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#home">Home</a>
+                                    <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#about">About</a>
+                                    <a class="nav-link" href="/About">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#menu">Menu</a>
+                                    <a class="nav-link" href="/Menu">Menu</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#review">Reviews</a>
@@ -76,13 +76,13 @@ function Main() {
                     <span>About Us</span>
                     <p> Sherish menu are all organic and aims to pursue people to continue on living healthy lifestyle.</p>
                     <p>Through this site we are able to reach thousand of people that we could inspire on living such a healthy lifestyle.</p>
-                    <a href="about.html" class="btn">Learn More</a>
+                    <a href="/About" class="btn">Learn More</a>
                 </div>
             </section>
 
             <section class="menu" id="menu"/>
                 <div class="heading">
-                    <h1>Best Features </h1> <a href="menu.html" class="btn">Order Now</a>
+                    <h1>Best Features </h1> <a href="/Menu" class="btn">Order Now</a>
                 </div>
 
 
@@ -145,7 +145,7 @@ function Main() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate laudantium omnis, perspiciatis sint totam ipsam neque at dicta quae voluptatem sapiente maiores consequatur iste adipisci officiis error autem reprehenderit.</p>
                         <div class="review-profile">
                            
-                            <img src={c1} alt="sher (1).png"/>
+                            <img src={c1} alt="sher.png"/>
                             <h3>Sherly Atillo</h3>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ function Main() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate laudantium omnis, perspiciatis sint totam ipsam neque at dicta quae voluptatem sapiente maiores consequatur iste adipisci officiis error autem reprehenderit.</p>
                         <div class="review-profile">
                     
-                            <img src={c2} alt="tr (1).jpg"/>
+                            <img src={c2} alt="tr.jpg"/>
                             <h3>Trisha Boneo</h3>
                         </div>
                     </div>
@@ -179,7 +179,7 @@ function Main() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate laudantium omnis, perspiciatis sint totam ipsam neque at dicta quae voluptatem sapiente maiores consequatur iste adipisci officiis error autem reprehenderit.</p>
                         <div class="review-profile">
                           
-                            <img src={c3} alt="ana (1).jpg"/>
+                            <img src={c3} alt="ana.jpg"/>
                             <h3>Ana Marie</h3>
                         </div>
                     </div>
