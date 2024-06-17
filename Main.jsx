@@ -1,3 +1,4 @@
+
 import React from "react";
 import logo from '../images/lo.jpg';
 import f1 from '../images/drinks.png';
@@ -6,10 +7,9 @@ import f3 from '../images/sal.png';
 import f4 from '../images/ll.jpg';
 import c1 from '../images/sher.png';
 import c2 from '../images/tr.jpg';
-import c3 from '../images/ana.jpg';
+import c3 from '../images/ana (1).jpg';
 import c4 from '../images/henry.png';
 import '../css/s.css';
-
 
 function Main() {
     return (
@@ -22,7 +22,7 @@ function Main() {
                 <nav class="navbar navbar-expand-lg sticky-top text-center" data-bs-spy="scroll" data-bs-target=".navbar" id="navbar">
                     <div class="container">
                         <a class="navbar-brand logo" href="lo.jpg">
-                            <img src= {logo} alt="lo.jpg" height="5rem" width="40rem" class="rounded-5"/>
+                            <img src={logo} alt="lo.jpg" height="5rem" width="40rem" class="rounded-5"/>
                             <h4 class="mb-0 dark"> Delicacy</h4>
                         </a>
                     
@@ -129,7 +129,7 @@ function Main() {
 
  
             <section class="review" id="review">
-                <h2>Why Customer's love us?</h2>
+                <h1>Why Customer's love us?</h1>
            
                 <div class="reviews-container">
                   
@@ -179,7 +179,7 @@ function Main() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate laudantium omnis, perspiciatis sint totam ipsam neque at dicta quae voluptatem sapiente maiores consequatur iste adipisci officiis error autem reprehenderit.</p>
                         <div class="review-profile">
                           
-                            <img src={c3} alt="ana.jpg"/>
+                            <img src={c3} alt="ana (1).jpg"/>
                             <h3>Ana Marie</h3>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ function Main() {
 
             <section class="signup" id="signup">
             <form action="/action_page.php">
-                <h2>Register Form</h2>
+                <h1>Register Form</h1>
                 <div class="input-container">
                 <i class="fa fa-user icon"></i>
                 <input class="input-field" type="text" placeholder="Username" name="usrnm"/>
